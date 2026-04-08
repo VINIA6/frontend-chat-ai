@@ -1,3 +1,10 @@
+// ============================================================
+// DEMO_MODE: quando true, todas as chamadas ao backend são
+// substituídas por dados locais (localStorage). Não é necessário
+// servidor rodando. Para reativar o backend, altere para false.
+// ============================================================
+export const DEMO_MODE = true;
+
 // Detectar ambiente e usar URL apropriada
 const getApiUrl = () => {
   // Se há variável de ambiente, usar ela
